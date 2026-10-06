@@ -1,0 +1,38 @@
+[
+  {
+    "path": "images/joao-valentim.jpg",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 105474
+  },
+  {
+    "path": "images/legacy-growth-partner.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 35210
+  },
+  {
+    "path": "robots.txt",
+    "status": 200,
+    "type": "text/plain; charset=utf-8",
+    "bytes": 70
+  },
+  {
+    "path": "sitemap.xml",
+    "status": 200,
+    "type": "application/xml",
+    "bytes": 259
+  },
+  {
+    "path": "opengraph-image",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 52615
+  },
+  {
+    "path": "_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+    "status": 200,
+    "type": "application/javascript; charset=utf-8",
+    "bytes": 112594
+  }
+]

@@ -18,3 +18,4 @@ A captura não inclui o serviço `/_next/image` da Vercel, nem comprova o funcio
 Não foram criadas configurações de build ou deploy substitutas, nem alterados os domínios, DNS ou a produção. Antes de publicar este repositório no lugar do projeto atual, recuperar o source do deployment Vercel ou outra cópia do projeto original e validar todas as funções.
 
 `migration/public-assets.json` registra os downloads complementares. `migration/files.json` registra os hashes dos arquivos salvos.
+
