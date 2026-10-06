@@ -1,21 +1,25 @@
-# JVM & Co. — recuperação dos arquivos públicos
+# JVM & Co. — versão publicada recuperada
 
-Cópia dos arquivos do site fornecidos em `www.jvmco.com.br (1).zip`, adicionada manualmente à conta Charlie Brownie.
+Recuperação manual do site público para `charliebrowniecontato-ship-it/JVMCo-Site`, sem recriação do design.
 
-## Estado da recuperação
+## Publicação
 
-- Os arquivos do domínio `www.jvmco.com.br` presentes no ZIP são preservados byte a byte.
-- Imagens e endpoints públicos ausentes no ZIP foram recuperados do site em produção, quando acessíveis, sem modificar os arquivos enviados.
-- Arquivos de outros domínios (Google e Kaspersky) não fazem parte dos arquivos do site e não foram importados.
-- O HTML enviado contém uma referência a um script do Kaspersky inserido na captura. Ela foi mantida para preservar o arquivo original; a captura não deve ser tratada como uma exportação limpa do projeto.
+A Vercel publica a branch `main`. `node scripts/build.mjs` copia os arquivos públicos para `dist/`, sem transpilar, minificar ou transformar seu conteúdo. Não há dependências de instalação.
 
-## Limitação para a migração
+O HTML, CSS e JavaScript são os arquivos exatos recuperados de `https://www.jvmco.com.br/`. Fontes, imagens, favicon, robots, sitemap e Open Graph também estão no repositório. A rota `/_next/image` serve a foto local de João Valentim; não depende da hospedagem antiga. A foto usa o arquivo original em vez da otimização dinâmica de tamanho.
 
-Este repositório contém uma captura do site publicado: HTML, CSS, JavaScript compilado e recursos públicos. O ZIP não contém o código-fonte Next.js, `package.json`, lockfile nem o histórico Git original.
+## Correção do arquivo enviado
 
-A captura não inclui o serviço `/_next/image` da Vercel, nem comprova o funcionamento do formulário, cookies, políticas e hidratação React em outra hospedagem. Ter os arquivos públicos salvos não significa que o projeto Next.js tenha sido migrado.
+O ZIP enviado continha JavaScript e CSS reformatados, apesar de manter os nomes de arquivos imutáveis usados no site original. Alguns JavaScripts tinham sintaxe alterada e inválida. A Vercel recusou essa captura com `IMMUTABLE_STATIC_HASH_MISMATCH`.
 
-Não foram criadas configurações de build ou deploy substitutas, nem alterados os domínios, DNS ou a produção. Antes de publicar este repositório no lugar do projeto atual, recuperar o source do deployment Vercel ou outra cópia do projeto original e validar todas as funções.
+Os arquivos foram substituídos pelos bytes originais disponibilizados na produção. O HTML recuperado diretamente da produção também elimina o script de antivírus injetado na captura enviada. Os arquivos recebidos originalmente continuam preservados no histórico Git, no commit `cfec3d7d1272ef14fc59be4c8bd697ee4ac9a95d`.
 
-`migration/public-assets.json` registra os downloads complementares. `migration/files.json` registra os hashes dos arquivos salvos.
+## Escopo e limites
 
+Esta é a recuperação da versão compilada publicada, com seu HTML e componentes JavaScript existentes. Não recupera o código-fonte Next.js, o histórico Git da Legacy ou a configuração do projeto Vercel original. Não há um build Next.js: há um build de publicação estática.
+
+O formulário existente valida os dados no navegador e prepara uma conversa no WhatsApp; não há backend de leads a migrar nesta versão. Políticas e preferências de cookies usam os componentes originais.
+
+Os domínios oficiais e o DNS não são alterados por esta configuração. Sua transferência deve ocorrer somente após validar o deployment de destino. URLs canônicas, OG Image e sitemap continuam apontando para o domínio oficial existente.
+
+`migration/production-recovery.json` registra a recuperação dos arquivos originais. `migration/files.json` registra os hashes dos arquivos atuais.

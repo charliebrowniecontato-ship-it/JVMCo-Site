@@ -1,0 +1,79 @@
+[
+  {
+    "path": "_next/static/immutable/chunks/03eenehna_5di.css",
+    "previous_bytes": 31099,
+    "production_bytes": 23837,
+    "same": false,
+    "sha256": "cc2e994ed004bc4364146c58b2a0d8a2b86b192501b80ddcf2c26a78f76bf646"
+  },
+  {
+    "path": "_next/static/immutable/chunks/25emnzw7c24hx.js",
+    "previous_bytes": 23410,
+    "production_bytes": 14379,
+    "same": false,
+    "sha256": "b17291ea2a9b3470ebf26e5112e1e6bc391409c89f9dc5b334d2f73de9d88e3c"
+  },
+  {
+    "path": "_next/static/immutable/chunks/turbopack-1hwsf9qxe3sv5.js",
+    "previous_bytes": 19642,
+    "production_bytes": 10943,
+    "same": false,
+    "sha256": "3384649bf20a415d8834d84dfbf8f38ec304710c5176cf50842ee6ffff417fee"
+  },
+  {
+    "path": "_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+    "previous_bytes": 112594,
+    "production_bytes": 112594,
+    "same": true,
+    "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+  },
+  {
+    "path": "_next/static/immutable/chunks/1ljtos-w0f3f0.js",
+    "previous_bytes": 429560,
+    "production_bytes": 229377,
+    "same": false,
+    "sha256": "41001c5373655e171491cfa9e85986c240bb3d5c6408ec463b672f38c391ccc1"
+  },
+  {
+    "path": "_next/static/immutable/chunks/3g67t01eilq05.js",
+    "previous_bytes": 307852,
+    "production_bytes": 178004,
+    "same": false,
+    "sha256": "1588f8e6b6d7fb079bee7bf103f7fb1823f6ab34b8476c9ceabb294027349dc8"
+  },
+  {
+    "path": "_next/static/immutable/chunks/3wpr89o-t_vwe.js",
+    "previous_bytes": 36755,
+    "production_bytes": 22271,
+    "same": false,
+    "sha256": "78649a9b0d281d729023d1292d27a5a7166a09e15bf3e03f3beecff01575698b"
+  },
+  {
+    "path": "_next/static/immutable/chunks/1vey5t9j0-4un.js",
+    "previous_bytes": 39217,
+    "production_bytes": 22528,
+    "same": false,
+    "sha256": "a2708545dcf937f9738cbbb6f5332239461e022bf65fe0a190600f3326b9b0ee"
+  },
+  {
+    "path": "_next/static/immutable/media/TiemposText_Semibold-s.p.0a5yhfbr6odfo.ttf",
+    "previous_bytes": 148896,
+    "production_bytes": 148896,
+    "same": true,
+    "sha256": "2b1965275ea4cfa1de7e82f5a0a438967f37d41330c0727bed534a793e9dc98f"
+  },
+  {
+    "path": "_next/static/immutable/media/Inter_Variable-s.p.1861z85gr8htb.ttf",
+    "previous_bytes": 876576,
+    "production_bytes": 876576,
+    "same": true,
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+  },
+  {
+    "path": "index.html",
+    "previous_bytes": 45384,
+    "production_bytes": 41728,
+    "same": false,
+    "sha256": "89e097ff34c872b78f3dbc5ba6388284e60b3b0c4f72298ce9d7ab25dd2a4085"
+  }
+]
