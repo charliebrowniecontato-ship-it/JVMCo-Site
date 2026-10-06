@@ -6,6 +6,8 @@ Recuperação manual do site público para `charliebrowniecontato-ship-it/JVMCo-
 
 A Vercel publica a branch `main`. `node scripts/build.mjs` copia os arquivos públicos para `dist/`, sem transpilar, minificar ou transformar seu conteúdo. Não há dependências de instalação.
 
+Os arquivos compilados são armazenados em `assets/next/`, com uma rota que preserva suas URLs originais `/_next/static/immutable/`. Isso separa a cópia estática do namespace imutável rejeitado pela Vercel, sem modificar o conteúdo dos arquivos.
+
 O HTML, CSS e JavaScript são os arquivos exatos recuperados de `https://www.jvmco.com.br/`. Fontes, imagens, favicon, robots, sitemap e Open Graph também estão no repositório. A rota `/_next/image` serve a foto local de João Valentim; não depende da hospedagem antiga. A foto usa o arquivo original em vez da otimização dinâmica de tamanho.
 
 ## Correção do arquivo enviado
